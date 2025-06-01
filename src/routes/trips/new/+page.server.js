@@ -1,5 +1,5 @@
 import { connectDB } from '$lib/db';
-import { redirect } from '@sveltejs/kit'; // ⬅️ Wichtig!
+import { redirect } from '@sveltejs/kit'; 
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ url }) {
